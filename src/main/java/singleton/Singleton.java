@@ -1,6 +1,6 @@
 package singleton;
 
-class Singleton {
+public class Singleton {
 
     private static volatile Singleton singleton;
     private int a;
@@ -9,7 +9,7 @@ class Singleton {
     private Singleton() {
     }
 
-    static Singleton getInstance()
+    public static Singleton getInstance()
     {
         //load in lazy manner
         if(singleton == null) {
