@@ -17,5 +17,6 @@ public class SingletonTest {
         Assertions.assertSame(obj1, obj2);
         Assertions.assertSame(obj2, obj3);
     }
+    
 
 }
