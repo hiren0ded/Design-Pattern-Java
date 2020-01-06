@@ -20,6 +20,12 @@
         <version>5.2.0</version>
         <scope>test</scope>
     </dependency>
+        <dependency>
+            <groupId>org.mutabilitydetector</groupId>
+            <artifactId>MutabilityDetector</artifactId>
+            <version>0.10.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 
